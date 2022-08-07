@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Flask Mail Sending App</h2>
+    <form action="{{url_for('send_message')}}" method="POST">
+        <input type="email" name="email" placeholder="Email" id=""><br><br>
+        <input type="text" id="" name="subject" placeholder="subject" id=""><br><br>
+        <textarea name="message" rows="10" cols="30" placeholder="Message Body" id=""></textarea><br><br>
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+
+</html>
